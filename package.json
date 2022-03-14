@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=1313 nuxt",
+    "dev": "NUXT_HOST=0.0.0.0 PORT=1313 nuxt",
     "build": "nuxt build",
-    "start": "PORT=1313 nuxt start",
+    "start": "NUXT_HOST=0.0.0.0 PORT=1313 nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
