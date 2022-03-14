@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/widgetV2/widget-example-website/
+cd /home/ubuntu/widgetV2/widget_example_website/
 npm run start
 
