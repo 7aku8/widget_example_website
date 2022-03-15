@@ -44,9 +44,9 @@ export default {
 
       const uid = uuid()
       console.log('starting widget transaction | with uuid: ', uid)
-      console.log('amount | ', 25)
+      console.log('amount | ', 20)
       console.log('currency | ', 'EUR')
-      widget.start(25, 'EUR', uid);
+      widget.start(20, 'EUR', uid);
     },
     referral() {
       const widget = new CryptoVoucherWidget({
