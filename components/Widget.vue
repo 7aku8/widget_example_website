@@ -10,6 +10,9 @@
         <button @click="checkout" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Checkout</button>
         <button @click="referral" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Referral</button>
       </div>
+      <div class="p-6 flex justify-center gap-6">
+        <button @click="prod" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Prod Miracle</button>
+      </div>
     </div>
   </div>
 </template>
