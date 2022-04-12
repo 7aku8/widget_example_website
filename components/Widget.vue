@@ -42,7 +42,8 @@ export default {
       const widget = new CryptoVoucherWidget({
         selector: '#widget_embed',
         token: '2k2KCY7PC2u2J9uv9BeTe4yN',
-        baseUrl: 'http://0.0.0.0:1234'
+        baseUrl: 'https://widget-stage.cryptovoucher.io/'
+        // baseUrl: 'http://0.0.0.0:1234'
       });
 
       const uid = uuid()
